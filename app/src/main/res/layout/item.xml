@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lixinxin.deleteitem.widgit.LXXSwipeItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:bga_sil_bottomMode="pullOut"
+    app:bga_sil_springDistance="20dp"
+    android:id="@+id/lxx"
+    app:bga_sil_swipeDirection="left"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:background="@android:color/holo_red_dark"
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="删除" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="gagagaggvvvvvvvvvvvffffvvvvvvvvvvvvvvvvv" />
+
+    </LinearLayout>
+
+</com.lixinxin.deleteitem.widgit.LXXSwipeItemLayout>
