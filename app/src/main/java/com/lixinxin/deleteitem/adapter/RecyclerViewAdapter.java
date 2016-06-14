@@ -78,7 +78,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void closeAllItem() {
 
         for (LXXSwipeItemLayout v : lists) {
-            v.close();
+            v.closeWithAnim();
         }
     }
 
